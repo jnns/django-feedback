@@ -8,6 +8,8 @@ from authenticated users within your Django project.
 Installation
 ============
 
+Make sure that ``django.contrib.sites`` is listed in your ``INSTALLED_APPS``.
+
 Put ``feedback`` in your ``INSTALLED_APPS``, and set ``FEEDBACK_CHOICES`` to a 2-tuple of feedback types
 in your settings file. For example::
 
